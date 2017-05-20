@@ -4,22 +4,6 @@
     </head>
   <body>
     <div  id="root" style="height: 100%" />
-    <script>
-      function getRandomColor() {
-        let color = Math.floor(Math.random() * 4096).toString(16)
-        return '#' + ('000' + color).slice(-3)
-      }
-      var loadDeferredStyles = function() {
-        document.body.style.backgroundColor = getRandomColor();
-      };
-      document.body.addEventListener("mouseup", loadDeferredStyles, false);
-document.body.addEventListener("touchend", loadDeferredStyles, false);
-
-      loadDeferredStyles();
-//       var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-//           webkitRequestAnimationFrame || msRequestAnimationFrame;
-//       if (raf) raf(function() { window.setTimeout(loadDeferredStyles, 0); });
-//       else window.addEventListener('load', loadDeferredStyles);
-    </script>
+      <a href="randomColor/index.html">Random Color</a>
   </body>
 </html>

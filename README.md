@@ -1,2 +1,2 @@
-# randomColor
-generates random color
+# Learnings on JS
+Trying out javascript
