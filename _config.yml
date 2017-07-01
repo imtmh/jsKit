@@ -1,1 +1,4 @@
 theme: jekyll-theme-midnight
+name: Thirumalesh Chinna
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
