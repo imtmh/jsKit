@@ -1,0 +1,70 @@
+body {
+    background-color: green;
+    color: green;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px lightblue;
+}
+
+h1:hover {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.quote-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.containerWrapper {
+    padding-top: 5rem;
+}
+
+.container {
+    font-family: 'Aladin', cursive;
+}
+
+.small {
+    font-size: 1rem;
+}
+
+.buttons {
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+}
+
+.btn {
+    font-family: 'Aladin', cursive;
+    background-color: green;
+    color: white;
+}
+
+.btn .fa {
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.footer {
+    bottom: 0;
+    right: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 1.5rem;
+    position: fixed;
+    font-weight: bold;
+    color: black;
+    text-shadow: 2px 2px 4px white;
+}
+
+.design {
+    font-family: 'Clicker Script', cursive;
+}
